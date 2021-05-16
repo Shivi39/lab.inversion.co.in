@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+/* for jumbotron in .story and .testimonial */
+.jumbotron{
+    padding-bottom: initial;
+}
+
+/* OASIS - Our Story */
+.story{
+    padding-bottom: 0px;
+    background: url('./back5.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    display: table;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* for .box in .story */
+.box{
+   padding: 0px;
+}
+
+.box h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 17px;
+    padding-right: 140px;
+    padding-top: 40px;
+    color: white;
+    font-size: 2.8rem;
+}
+
+.box p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    padding-bottom: 20px;
+    color: white;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* for all h1 s */
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+}
+
+/* for cards in event section */
+.card{
+    margin: 10px 0px;
+    margin-bottom: -112px;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 12px;
+    padding: 1px 60px;
+}
+
+/* for various events */
+.dance, .art, .poetry, .gaming{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+
+/* for testimonial */
+.testimonial{
+    padding-bottom: 0px;
+    background: url('./bg1.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    opacity: 0.89;
+}

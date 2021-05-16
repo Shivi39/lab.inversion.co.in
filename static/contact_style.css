@@ -1,0 +1,26 @@
+body{
+    margin-left: -13rem; 
+    /* background-color: black; */
+    background: url('./bg22.jpg') no-repeat center/cover;
+    height: 70vh;
+}
+
+#grid{
+    height: 100px;
+    margin-top: 8rem;
+}
+
+.form-group{
+    font-weight: bold;
+}
+
+.btn{
+    display: inline-flex;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-danger{
+    margin-left: 13rem;
+}
