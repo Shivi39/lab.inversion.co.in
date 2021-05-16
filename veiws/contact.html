@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/contact_style.css">
+
+    <title>Oasis - College Fest</title>
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="../static/logo2.jpg" width="60" height="60" class="d-inline-block align-center" alt=""
+                loading="lazy">
+            OASIS
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./events.html">Dance</a>
+                        <a class="dropdown-item" href="./events.html#dance">Art</a>
+                        <a class="dropdown-item" href="./events.html#art">Poetry</a>
+                        <a class="dropdown-item" href="./events.html#poetry">Music</a>
+                        <a class="dropdown-item" href="./events.html#music">Gaming</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./events.html#live-festival">Live Festival</a>
+                        <a class="dropdown-item" href="./about.html#testimonials">Testimonials</a>
+                      </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger my-4 my-sm-0" style="margin-right: 9px;"
+                    type="submit">Search</button>
+
+                <a href="./contact2.html" type="button" style="margin-right: 9px;"
+                    class="btn btn-outline-success my-2 ">Login</a>
+                <a href="./contact.html" type="button" class="btn btn-outline-success my-2 ">Signup</a>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <div class="container px-lg-5">
+        <div class="row mx-lg-n5" id="grid" style="margin-top: 9rem; width: 1329px; margin-left: -7rem;">
+            <div class="col py-3 px-lg-5 border bg-light">
+                <img src="../static/logo.jpg"
+                    style="margin: 1rem; margin-left: auto; width: 400px; height: 400px; font-weight: bold;"
+                    class="d-inline-block align-center" alt="" loading="lazy">
+                OASIS - Live Festival
+            </div>
+            <div class="col py-3 px-lg-5 border bg-light">
+                <form id="register-form">
+                    <h2 style="font-weight: bold; margin-left: 11rem; justify-content: center; align-items: center;">
+                        Register Here!</h2>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">College Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" style="margin-left: -3px;" type="checkbox" value=""
+                                id="invalidCheck" required>
+                            <label class="form-check-label" style="margin-left: 22px;
+                          margin-bottom: 5px;" for="invalidCheck">
+                                By using this form you agree with the storage and handling of your data by this website.
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" action="#" class="btn btn-danger">Register</button>
+                    <a href="./contact2.html" id="login" type="button" class="btn btn-success">Login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer here -->
+    <footer class="container my-3">
+        <p class="float-right"><a href="#" style="font-weight: bold;">Back to top</a></p>
+        <p><strong> © OASIS - College Fest 2020 </strong> <strong> · </strong> <a href="#"
+                style="font-weight: bold;">Privacy </a> <strong> · </strong> <a href="#"
+                style="font-weight: bold;">Terms</a></p>
+    </footer>
+
+    <!-- Javascript connections -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

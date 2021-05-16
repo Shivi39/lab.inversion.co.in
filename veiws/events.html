@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/about_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+  <title>Oasis - College Fest</title>
+</head>
+
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="../static/logo2.jpg" width="60" height="60" class="d-inline-block align-center" alt="" loading="lazy">
+      OASIS
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./events.html">Dance</a>
+            <a class="dropdown-item" href="./events.html#dance">Art</a>
+            <a class="dropdown-item" href="./events.html#art">Poetry</a>
+            <a class="dropdown-item" href="./events.html#poetry">Music</a>
+            <a class="dropdown-item" href="./events.html#music">Gaming</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./events.html#live-festival">Live Festival</a>
+            <a class="dropdown-item" href="./about.html#testimonials">Testimonials</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-danger my-4 my-sm-0" style="margin-right: 9px;" type="submit">Search</button>
+
+        <a href="./contact2.html" type="button" style="margin-right: 9px;"
+          class="btn btn-outline-success my-2 ">Login</a>
+        <a href="./contact.html" type="button" class="btn btn-outline-success my-2 ">Signup</a>
+      </form>
+    </div>
+  </nav>
+
+
+  
+  <!-- Events section -->
+  <h1 id="events">OASIS - Events</h1>
+
+  <!-- Dance Event section  -->
+  <div id="dance">
+    <div class="card bg-dark text-white ">
+      <img src="../static/bg2.jpg" class="card-img" alt="..." width="100%" height="300px" style="opacity: 0.68;">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-center">Dance</h5>
+        <p class="card-text">The art of dance has always been refreshing and rejuvinating.</p>
+        <div class="dance">
+          <p class="card-text">Solo dancing
+            <button class="btn btn-danger" data-toggle="modal" data-target="#solo-danceModal" style="
+            margin-left: 60px;">Rules</button> </p>
+          <p class="card-text">Duet Dancing
+            <button class="btn btn-danger" data-toggle="modal" data-target="#duet-danceModal" style="
+            margin-left: 54px;">Rules</button> </p>
+          <p class="card-text">Group Dance
+            <button class="btn btn-danger" data-toggle="modal" data-target="#group-danceModal" style="
+           margin-left: 60px;">Rules</button> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dance Event Modal -->
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+    <div class="modal fade" id="solo-danceModal" tabindex="-1" aria-labelledby="solo-danceModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="solo-danceModalLabel">Solo Dancing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="duet-danceModal" tabindex="-1" aria-labelledby="duet-danceModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="duet-danceModalLabel">Duet Dancing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="group-danceModal" tabindex="-1" aria-labelledby="group-danceModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="group-danceModalLabel">Group Dancing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Art Event section -->
+  <div id="art">
+    <div class="card bg-dark text-white ">
+      <img src="../static/bg14.jpg" class="card-img" alt="..." width="100%" height="300px" style="opacity: 0.8;">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-center">Art</h5>
+        <p class="card-text">Artistic temperament is a feature of genius minds.</p>
+        <div class="art">
+          <p class="card-text">Pencil/Pen Art
+            <button class="btn btn-danger" data-toggle="modal" data-target="#pen-artModal" style="
+            margin-left: 60px;">Rules</button> </p>
+          <p class="card-text">Water Color Art
+            <button class="btn btn-danger" data-toggle="modal" data-target="#color-artModal" style="
+            margin-left: 52px;">Rules</button> </p>
+          <p class="card-text">Clay Art
+            <button class="btn btn-danger" data-toggle="modal" data-target="#clay-artModal" style="
+          margin-left: 113px;">Rules</button> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Art Event Modal -->
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+    <div class="modal fade" id="pen-artModal" tabindex="-1" aria-labelledby="pen-artModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pen-artModalLabel">Pencil/Pen Art</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="color-artModal" tabindex="-1" aria-labelledby="color-artModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="color-artModalLabel">Water Color Art</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="clay-artModal" tabindex="-1" aria-labelledby="clay-artModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="clay-artModalLabel">Clay Art</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Poetry Event -->
+  <div id="poetry">
+    <div class="card bg-dark text-white ">
+      <img src="../static/bg9.jpg" class="card-img" alt="..." width="100%" height="300px" style="opacity: 0.8;">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-center">Poetry</h5>
+        <p class="card-text card-text-art">Poems are a graceful way of expression of emotions.</p>
+        <div class="poetry">
+          <p class="card-text">Poem Recital
+            <button class="btn btn-danger" data-toggle="modal" data-target="#poemModal" style="
+            margin-left: 60px;">Rules</button> </p>
+          <p class="card-text">Shayris
+            <button class="btn btn-danger" data-toggle="modal" data-target="#shayriModal" style="
+            margin-left: 106px;">Rules</button> </p>
+          <p class="card-text">Essay Narration
+            <button class="btn btn-danger" data-toggle="modal" data-target="#essayModal" style="
+          margin-left: 39px;">Rules</button> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Poetry Event Modal -->
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+    <div class="modal fade" id="poemModal" tabindex="-1" aria-labelledby="poemModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="poemModalLabel">Poem Recital</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="shayriModal" tabindex="-1" aria-labelledby="shayriModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="shayriModalLabel">Shayris</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="essayModal" tabindex="-1" aria-labelledby="essayModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="essayModalLabel">Essay Narration</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Music Event -->
+  <div id="music">
+    <div class="card bg-dark text-white ">
+      <img src="../static/bg4.jpg" class="card-img" alt="..." width="100%" height="300px" style="opacity: 0.6;">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-center">Music</h5>
+        <p class="card-text card-text-art">Music is a gentle way to heal the soul.</p>
+        <div class="poetry">
+          <p class="card-text">Solo Singing
+            <button class="btn btn-danger" data-toggle="modal" data-target="#solo-singingModal" style="
+              margin-left: 60px;">Rules</button> </p>
+          <p class="card-text">Duet Singing
+            <button class="btn btn-danger" data-toggle="modal" data-target="#duet-singingModal" style="
+              margin-left: 56px;">Rules</button> </p>
+          <p class="card-text">Group Singing
+            <button class="btn btn-danger" data-toggle="modal" data-target="#group-singingModal" style="
+            margin-left: 45px;">Rules</button> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Muisc Event Modal -->
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+    <div class="modal fade" id="solo-singingModal" tabindex="-1" aria-labelledby="solo-singingModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="solo-singingModalLabel">Solo Singing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="duet-singingModal" tabindex="-1" aria-labelledby="duet-singingModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="duet-singingModalLabel">Duet Singing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="group-singingModal" tabindex="-1" aria-labelledby="group-singingModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="group-singingModalLabel">Group Singing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Gaming Event -->
+  <div id="gaming">
+    <div class="card bg-dark text-white ">
+      <img src="../static/bg7.jpg" class="card-img" alt="..." width="100%" height="300px" style="opacity: 0.6;">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-center">Gaming</h5>
+        <p class="card-text card-text-art">Indoor sports to calm dowm the lockdown frustration.</p>
+        <div class="gaming">
+          <p class="card-text">Solo Gaming
+            <button class="btn btn-danger" data-toggle="modal" data-target="#solo-gamingModal" style="
+              margin-left: 60px;">Rules</button> </p>
+          <p class="card-text">Dual Gaming
+            <button class="btn btn-danger" data-toggle="modal" data-target="#dual-gamingModal" style="
+              margin-left: 56px;">Rules</button> </p>
+          <p class="card-text">Team Gaming
+            <button class="btn btn-danger" data-toggle="modal" data-target="#team-gamingModal" style="
+            margin-left: 49px;">Rules</button> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gaming Event Modal -->
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+    <div class="modal fade" id="solo-gamingModal" tabindex="-1" aria-labelledby="solo-gamingModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="solo-gamingModalLabel">Solo Gaming</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="dual-gamingModal" tabindex="-1" aria-labelledby="dual-gamingModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dual-gamingModalLabel">Dual Gaming</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="team-gamingModal" tabindex="-1" aria-labelledby="team-gamingModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="team-gamingModalLabel">Team Gaming</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p> Criteria : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quae minus nisi nostrum
+              eos numquam ipsam consequatur illo neque ex! </p>
+
+            <p> Prelims : Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eius in maxime earum rem
+              repellendus quibusdam ut, voluptatibus omnis eos. </p>
+
+            <p> Semi-finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quibusdam cum omnis
+              mollitia deleniti possimus harum explicabo modi excepturi doloribus! </p>
+
+            <p> Finals : Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias harum eos ex nesciunt adipisci
+              minima odio, sapiente ea provident! Molestias. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a href="../views/contact.html" type="button" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Live Festival section -->
+  <h1 id="live-festival" style="padding-top: 35px;">OASIS - Live Festival</h1>
+
+  <div class="card-deck" style="margin-right: -10px;">
+    <div class="card">
+      <img src="../static/arijit.jpg" class="card-img-top" alt="..." height="330px">
+      <div class="card-body">
+        <h5 class="card-title">Arijit Singh</h5>
+        <p class="card-text">On the first night of OASIS - Live Festival we have Arijit Singh performing. Its his first
+          time at OASIS so c'mon people resister for the concert and show some love.</p>
+        <button type="button" data-toggle="modal" data-target="#live-festivalModal" class="btn btn-danger"
+          style="margin-left: 160px;">Book Tickets</button>
+      </div>
+
+    </div>
+    <div class="card">
+      <img src="../static/jub2.jpg" class="card-img-top" alt="..." height="330px">
+      <div class="card-body">
+        <h5 class="card-title">Jubin Nautiyal</h5>
+        <p class="card-text">This year once again we present the phenomenal Jubin Nautiyal on the secind night od OASIS
+          - Live Festival with his melodies! So people shower your love and register now!</p>
+        <button type="button" data-toggle="modal" data-target="#live-festivalModal" class="btn btn-danger"
+          style="margin-left: 160px;">Book Tickets</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="../static/shreya2.jpg" class="card-img-top" alt="..." height="330px">
+      <div class="card-body">
+        <h5 class="card-title">Shreya Ghoshal</h5>
+        <p class="card-text">On the third and the last night of OASIS - Live Festival we have our nightingale Shreya
+          Ghoshal. Join us and soothe your nerves with their breathtaking songs!</p>
+        <button type="button" data-toggle="modal" data-target="#live-festivalModal" class="btn btn-danger"
+          style="margin-left: 160px;">Book Tickets</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live Festival Modal -->
+  <div class="modal fade" id="live-festivalModal" tabindex="-1" aria-labelledby="live-festivalModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="live-festivalModalLabel">OASIS - Live Festival</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">OASIS - Live Festival Concerts</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option> Arijit Singh </option>
+                <option> Jubin Nautiyal </option>
+                <option> Shreya Ghoshal </option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Number of Seats</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+          </form>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" style="margin-left: -3px;" type="checkbox" value="" id="invalidCheck"
+              required>
+            <label class="form-check-label" style="margin-left: 22px;
+            margin-bottom: 5px;" for="invalidCheck">
+              By using this form you agree with the storage and handling of your data by this website.
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Buy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer here -->
+  <footer class="container my-3">
+    <p class="float-right"><a href="#" style="font-weight: bold;">Back to top</a></p>
+    <p><strong> © OASIS - College Fest 2020 </strong> <strong> · </strong> <a href="#"
+        style="font-weight: bold;">Privacy </a> <strong> · </strong> <a href="#" style="font-weight: bold;">Terms</a>
+    </p>
+  </footer>
+
+  <!-- Javascript connections -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
